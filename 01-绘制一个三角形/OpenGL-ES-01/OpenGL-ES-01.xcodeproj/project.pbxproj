@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61BE13F1D3FDADE00E9648C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D61BE13E1D3FDADE00E9648C /* main.m */; };
+		D61BE1421D3FDADE00E9648C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D61BE1411D3FDADE00E9648C /* AppDelegate.m */; };
+		D61BE14A1D3FDADE00E9648C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61BE1491D3FDADE00E9648C /* Assets.xcassets */; };
+		D61BE14D1D3FDADE00E9648C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BE14B1D3FDADE00E9648C /* LaunchScreen.storyboard */; };
+		D61BE1581D3FDBD200E9648C /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61BE1571D3FDBD200E9648C /* JCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D61BE13A1D3FDADE00E9648C /* OpenGL-ES-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-ES-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61BE13E1D3FDADE00E9648C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D61BE1401D3FDADE00E9648C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D61BE1411D3FDADE00E9648C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D61BE1491D3FDADE00E9648C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61BE14C1D3FDADE00E9648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D61BE14E1D3FDADE00E9648C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61BE1561D3FDBD200E9648C /* JCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
+		D61BE1571D3FDBD200E9648C /* JCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61BE1371D3FDADE00E9648C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61BE1311D3FDADE00E9648C = {
+			isa = PBXGroup;
+			children = (
+				D61BE13C1D3FDADE00E9648C /* OpenGL-ES-01 */,
+				D61BE13B1D3FDADE00E9648C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61BE13B1D3FDADE00E9648C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE13A1D3FDADE00E9648C /* OpenGL-ES-01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61BE13C1D3FDADE00E9648C /* OpenGL-ES-01 */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE1541D3FDB1100E9648C /* Application */,
+				D61BE1551D3FDB2800E9648C /* Class */,
+				D61BE13D1D3FDADE00E9648C /* Supporting Files */,
+			);
+			path = "OpenGL-ES-01";
+			sourceTree = "<group>";
+		};
+		D61BE13D1D3FDADE00E9648C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE1491D3FDADE00E9648C /* Assets.xcassets */,
+				D61BE14B1D3FDADE00E9648C /* LaunchScreen.storyboard */,
+				D61BE14E1D3FDADE00E9648C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D61BE1541D3FDB1100E9648C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE13E1D3FDADE00E9648C /* main.m */,
+				D61BE1401D3FDADE00E9648C /* AppDelegate.h */,
+				D61BE1411D3FDADE00E9648C /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D61BE1551D3FDB2800E9648C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE1561D3FDBD200E9648C /* JCViewController.h */,
+				D61BE1571D3FDBD200E9648C /* JCViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61BE1391D3FDADE00E9648C /* OpenGL-ES-01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61BE1511D3FDADE00E9648C /* Build configuration list for PBXNativeTarget "OpenGL-ES-01" */;
+			buildPhases = (
+				D61BE1361D3FDADE00E9648C /* Sources */,
+				D61BE1371D3FDADE00E9648C /* Frameworks */,
+				D61BE1381D3FDADE00E9648C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-ES-01";
+			productName = "OpenGL-ES-01";
+			productReference = D61BE13A1D3FDADE00E9648C /* OpenGL-ES-01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61BE1321D3FDADE00E9648C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "JC‘Chan";
+				TargetAttributes = {
+					D61BE1391D3FDADE00E9648C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 26739ZC4WY;
+					};
+				};
+			};
+			buildConfigurationList = D61BE1351D3FDADE00E9648C /* Build configuration list for PBXProject "OpenGL-ES-01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61BE1311D3FDADE00E9648C;
+			productRefGroup = D61BE13B1D3FDADE00E9648C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61BE1391D3FDADE00E9648C /* OpenGL-ES-01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61BE1381D3FDADE00E9648C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61BE14D1D3FDADE00E9648C /* LaunchScreen.storyboard in Resources */,
+				D61BE14A1D3FDADE00E9648C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61BE1361D3FDADE00E9648C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61BE1421D3FDADE00E9648C /* AppDelegate.m in Sources */,
+				D61BE1581D3FDBD200E9648C /* JCViewController.m in Sources */,
+				D61BE13F1D3FDADE00E9648C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D61BE14B1D3FDADE00E9648C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61BE14C1D3FDADE00E9648C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D61BE14F1D3FDADE00E9648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D61BE1501D3FDADE00E9648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61BE1521D3FDADE00E9648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGL-ES-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.OpenGL-ES-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D61BE1531D3FDADE00E9648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGL-ES-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.OpenGL-ES-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61BE1351D3FDADE00E9648C /* Build configuration list for PBXProject "OpenGL-ES-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61BE14F1D3FDADE00E9648C /* Debug */,
+				D61BE1501D3FDADE00E9648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61BE1511D3FDADE00E9648C /* Build configuration list for PBXNativeTarget "OpenGL-ES-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61BE1521D3FDADE00E9648C /* Debug */,
+				D61BE1531D3FDADE00E9648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61BE1321D3FDADE00E9648C /* Project object */;
+}
