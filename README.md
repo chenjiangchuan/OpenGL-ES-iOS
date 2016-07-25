@@ -21,7 +21,7 @@ Demo的原理分析见我的[博客](http://www.oriochan.com/)
 
 ![](https://github.com/chenjiangchuan/OpenGL-ES-iOS/raw/master/picture/04-修改纹理的取样模式.gif)
 
-- 05-两个纹理的混合
+- 05-混合片元颜色
 
 ![](https://github.com/chenjiangchuan/OpenGL-ES-iOS/raw/master/picture/05-两个纹理的混合.png)
 
